@@ -1,0 +1,22 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: model_sandbox_development
+  pool: 5
+  username: baracus 
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: model_sandbox_test
+  pool: 5
+  username: baracus 
+
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: model_sandbox_production
+  pool: 5
+  username: baracus 
+
